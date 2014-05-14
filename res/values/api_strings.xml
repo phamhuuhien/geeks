@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2010 Regis Montoya (aka r3gis - www.r3gis.fr)
+
+	This file is part of CSipSimple. 
+-->
+
+<resources>
+
+    <string name="app_name">CSipSimple</string>
+    <string name="permlab_useSip">Use sip</string>
+    <string name="permdesc_useSip">Place SIP calls, send SIP messages</string>
+    <string name="permlab_configureSip">Full access to SIP Accounts/Calls/Messages</string>
+    <string name="permdesc_configureSip">Configure SIP accounts and settings, access to SIP contents (call logs, messages...), extends and hook SIP flow</string>
+    
+    <string name="noInternet">No internet connection</string>
+    <string name="dialog_title_verify_not_correct">Verify not correct</string>
+    <string name="btn_resend">Resend</string>
+    <string name="btn_dialog_disagree">Cancel</string>
+    <string name="dialog_number_check">Number check</string>
+    <string name="dialog_phone_number">Phone number</string>
+    <string name="dialog_4_code">4 code</string>
+    <string name="btn_dialog_agree">Agree</string>
+    
+    
+
+</resources>
