@@ -167,17 +167,17 @@ public class AccountsEditListFragment extends CSSListFragment implements /*OnQui
 	// Menu stuff
 	@Override
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(R.string.add_account)
-                .setIcon(android.R.drawable.ic_menu_add)
-                .setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        onClickAddAccount();
-                        return true;
-                    }
-                })
-                .setShowAsAction(
-                        MenuItem.SHOW_AS_ACTION_IF_ROOM );
+//        menu.add(R.string.add_account)
+//                .setIcon(android.R.drawable.ic_menu_add)
+//                .setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+//                    @Override
+//                    public boolean onMenuItemClick(MenuItem item) {
+//                        onClickAddAccount();
+//                        return true;
+//                    }
+//                })
+//                .setShowAsAction(
+//                        MenuItem.SHOW_AS_ACTION_IF_ROOM );
 
         menu.add(R.string.reorder).setIcon(android.R.drawable.ic_menu_sort_by_size)
                 .setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
@@ -552,9 +552,8 @@ public class AccountsEditListFragment extends CSSListFragment implements /*OnQui
 	}
 	
 	private void onClickAddAccount() {
-	    /*startActivityForResult(new Intent(getActivity(), WizardChooser.class),
-                CHOOSE_WIZARD);*/
-		showDetails(SipProfile.INVALID_ID, "BASIC");
+	    startActivityForResult(new Intent(getActivity(), WizardChooser.class),
+                CHOOSE_WIZARD);
 	}
 
     @Override

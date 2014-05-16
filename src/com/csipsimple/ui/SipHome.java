@@ -850,7 +850,6 @@ public class SipHome extends SherlockFragmentActivity implements OnWarningChange
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case ACCOUNTS_MENU:
-            	System.out.println("vao cho account ne");
                 startActivity(new Intent(this, AccountsEditList.class));
                 return true;
             case PARAMS_MENU:
