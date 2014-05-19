@@ -65,13 +65,18 @@ public class MainActivity extends CustomActivity {
 		case R.id.id_btn_next:
 			if (CommonHelper.isNetworkAvailable(getApplicationContext())) {
 				//registerThread();
+				if (!id_edt_phonenumber.getText().toString().trim().equals("")) {
 				progressDialog = ProgressDialog.show(this, "", "Registering ...");
 				new Thread(new Runnable() {
 					@Override
 					public void run() {
 						register(id_edt_phonenumber.getText().toString(), RandomAlphaNumericString(8));
+						
 					}}).start();
 				Log.i("MainAct", "Register");
+				} else {
+					CommonHelper.showWarningDialog(MainActivity.this, "Phone number is empty");
+				}
 			} else {
 				CommonHelper.showWarningDialog(MainActivity.this, getResources()
 						.getString(R.string.noInternet));

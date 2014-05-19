@@ -85,7 +85,7 @@ public final class CustomDistribution {
 	 * @return link to the FAQ
 	 */
 	public static String getFaqLink() {
-		return "http://code.google.com/p/csipsimple/wiki/FAQ?show=content,nav#Summary";
+		return "http://www.telecomgeeks.com/Articles.asp?ID=250";
 	}
 	
 	/**
