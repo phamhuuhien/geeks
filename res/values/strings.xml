@@ -33,6 +33,7 @@
     <string name="modify_account">Modify account</string>
     <string name="add_account">Add account</string>
     <string name="choose_wizard">Choose wizard</string>
+    <string name="unlimited_account">Unlimited account</string>
     <string name="use">Use :</string>
     <string name="use_pstn">Use mobile</string>
     <string name="ongoing_call">Call in Progress</string>

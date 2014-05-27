@@ -50,6 +50,7 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.webkit.WebView;
 
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
@@ -81,6 +82,7 @@ public class AccountsEditListFragment extends CSSListFragment implements /*OnQui
 	private AccountStatusContentObserver statusObserver = null;
     private View mHeaderView;
     private AccountsEditListAdapter mAdapter;
+   	private WebView webView;
 	
 	class AccountStatusContentObserver extends ContentObserver {
 		
@@ -472,6 +474,8 @@ public class AccountsEditListFragment extends CSSListFragment implements /*OnQui
     public static final int MENU_ITEM_DELETE = Menu.FIRST + 2;
     // Change the wizard of the account
     public static final int MENU_ITEM_WIZARD = Menu.FIRST + 3;
+    // Change the wizard of the account
+    public static final int MENU_ITEM_UNLIMITED = Menu.FIRST + 4;   
 
     /**
      * Retrieve sip account from a given context menu info pressed
@@ -514,6 +518,7 @@ public class AccountsEditListFragment extends CSSListFragment implements /*OnQui
         menu.add(0, MENU_ITEM_MODIFY, 0, R.string.modify_account);
         menu.add(0, MENU_ITEM_DELETE, 0, R.string.delete_account);
         menu.add(0, MENU_ITEM_WIZARD, 0, R.string.choose_wizard);
+        menu.add(0, MENU_ITEM_UNLIMITED, 0, R.string.unlimited_account);
 
     }
 
@@ -545,6 +550,11 @@ public class AccountsEditListFragment extends CSSListFragment implements /*OnQui
                 it.putExtra(Intent.EXTRA_UID, account.id);
                 startActivityForResult(it, CHANGE_WIZARD);
                 return true;
+            }
+            case MENU_ITEM_UNLIMITED:{
+            	webView.loadUrl("http://173.198.254.66:8000/pbx/signup/");
+            	webView.requestFocus();
+            	return true;
             }
         }
         return super.onContextItemSelected(item);

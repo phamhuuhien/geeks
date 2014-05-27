@@ -70,7 +70,9 @@ public class MainActivity extends CustomActivity {
 				new Thread(new Runnable() {
 					@Override
 					public void run() {
-						register(id_edt_phonenumber.getText().toString(), RandomAlphaNumericString(8));
+						TelephonyManager mTelephonyMgr;
+						mTelephonyMgr = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+						register(id_edt_phonenumber.getText().toString(), RandomAlphaNumericString(8),mTelephonyMgr.getDeviceId());
 						
 					}}).start();
 				Log.i("MainAct", "Register");
@@ -89,7 +91,7 @@ public class MainActivity extends CustomActivity {
 
 	}
 
-	public void register(final String username, final String password) {
+	public void register(final String username, final String password, final String imei) {
 		HttpClient client = new DefaultHttpClient();  
 		HttpPost post = new HttpPost("http://173.198.254.66:8000/pbx/register/"); 
 		post.setHeader("Content-type", "application/json");
@@ -98,6 +100,7 @@ public class MainActivity extends CustomActivity {
 			JSONObject obj = new JSONObject();
 			obj.put("username", username);
 			obj.put("password", password);
+			obj.put("imei", imei);
 			obj.put("vmpassword","1234");
 
 			post.setEntity(new StringEntity(obj.toString(), "UTF-8"));
