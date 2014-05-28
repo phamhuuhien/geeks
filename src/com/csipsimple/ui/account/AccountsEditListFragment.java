@@ -552,8 +552,8 @@ public class AccountsEditListFragment extends CSSListFragment implements /*OnQui
                 return true;
             }
             case MENU_ITEM_UNLIMITED:{
-            	webView.loadUrl("http://173.198.254.66:8000/pbx/signup/");
-            	webView.requestFocus();
+            	Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://173.198.254.66:8000/pbx/signup/"));
+            	startActivity(myIntent);
             	return true;
             }
         }
