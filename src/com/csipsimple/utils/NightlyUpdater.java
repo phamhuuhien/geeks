@@ -39,7 +39,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.service.DeviceStateReceiver;
 import com.csipsimple.service.Downloader;
 

@@ -35,7 +35,7 @@ import android.view.ViewParent;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.utils.Compatibility;
 import com.csipsimple.utils.Log;
 

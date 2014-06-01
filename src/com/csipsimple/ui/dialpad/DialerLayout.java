@@ -27,7 +27,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.utils.Log;
 
 public class DialerLayout extends LinearLayout {

@@ -28,7 +28,7 @@ import android.text.TextUtils;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.utils.Compatibility;
 import com.csipsimple.utils.Log;

@@ -29,7 +29,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.SparseIntArray;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.utils.Log;
 import com.csipsimple.utils.bluetooth.BluetoothWrapper;

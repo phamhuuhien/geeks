@@ -38,7 +38,7 @@ import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipMessage;
 import com.csipsimple.models.CallerInfo;
 import com.csipsimple.utils.ContactsAsyncHelper;

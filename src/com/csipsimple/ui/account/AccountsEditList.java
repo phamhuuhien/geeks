@@ -25,7 +25,7 @@ import android.os.Bundle;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.utils.Compatibility;
 
 public class AccountsEditList extends SherlockFragmentActivity {

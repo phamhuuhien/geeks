@@ -44,7 +44,7 @@ import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.ISipService;
 import com.csipsimple.api.SipCallSession;
 import com.csipsimple.api.SipConfigManager;

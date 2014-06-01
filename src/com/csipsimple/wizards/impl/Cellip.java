@@ -21,7 +21,7 @@
 
 package com.csipsimple.wizards.impl;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.utils.PreferencesWrapper;

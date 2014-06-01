@@ -32,7 +32,7 @@ import android.preference.PreferenceScreen;
 import android.text.TextUtils;
 
 import com.actionbarsherlock.app.SherlockPreferenceActivity;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.utils.Log;
 
 @SuppressWarnings("deprecation")

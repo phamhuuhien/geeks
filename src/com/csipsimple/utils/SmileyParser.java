@@ -36,7 +36,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.csipsimple.R;
+import com.geeks.R;
 
 /**
  * A class for annotating a CharSequence with spans to convert textual emoticons

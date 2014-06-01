@@ -29,7 +29,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.wizards.BasePrefsWizard;
 
 public class AccountCreationWebview {

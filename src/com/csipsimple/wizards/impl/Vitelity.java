@@ -29,7 +29,7 @@ import java.util.TreeMap;
 
 import android.preference.ListPreference;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.models.Filter;
 

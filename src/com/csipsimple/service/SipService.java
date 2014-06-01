@@ -51,7 +51,7 @@ import android.text.TextUtils;
 import android.view.SurfaceView;
 import android.widget.Toast;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.ISipConfiguration;
 import com.csipsimple.api.ISipService;
 import com.csipsimple.api.MediaState;

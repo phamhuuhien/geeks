@@ -6,6 +6,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.ProgressDialog;
@@ -21,7 +22,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.SipHome;
 import com.geeks.helper.CommonHelper;
 
@@ -118,7 +119,6 @@ public class MainActivity extends CustomActivity {
 						if(code == 0) {
 							SharedPreferences mPrefs = getSharedPreferences("LSprefs", 0);
 							SharedPreferences.Editor editor = mPrefs.edit();
-							editor.clear();
 
 							editor.putString(SIPUSER, username);
 							editor.putString(SIPPASS, password);
@@ -174,38 +174,15 @@ public class MainActivity extends CustomActivity {
 		}
 	}
 
-	//	private void registerThread() {
-	//		progressDialog = ProgressDialog.show(this, "", "Registering ...");
-	//		WebResponse response = new WebResponse() {
-	//			@Override
-	//			public void successHandle(JSONObject json) {
-	//				try {
-	//					JSONObject data = json.getJSONObject("data");
-	//					//					phone_number = data.getString("phone_number");
-	//					//					sip_password = data.getString("sip_password");
-	//					//                    sip_username = data.getString("sip_username");
-	//					//					verify_code = data.getString("verify_code");
-	//					//					Log.w("Register", "n " + phone_number + ", c " + verify_code);
-	//				} catch (JSONException e) {
-	//					e.printStackTrace();
-	//				}
-	//			}
-	//			@Override
-	//			public void failHandle(int i) {
-	//				mHandler.post(new Runnable() {
-	//					@Override
-	//					public void run() {
-	//						progressDialog.dismiss();
-	//						//Toast toast = Toast.makeText(MainActivity.this, "Fail", Toast.LENGTH_SHORT);
-	//						//toast.show();
-	//						String pass = RandomAlphaNumericString(8);
-	//					}
-	//				});
-	//			}
-	//		};
-	//		RegisterReq request = new RegisterReq(response);
-	//		request.regisThread(id_edt_phonenumber.getText().toString());
-	//	}
+	public static boolean isJSONValid(String test)
+	{
+		try {
+			new JSONObject(test);
+			return true;
+		} catch(JSONException ex) { 
+			return false;
+		}
+	}
 
 	public static String RandomAlphaNumericString(int size){
 		String chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";

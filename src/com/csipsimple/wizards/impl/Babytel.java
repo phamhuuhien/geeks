@@ -24,7 +24,7 @@ package com.csipsimple.wizards.impl;
 import android.text.InputType;
 import android.text.TextUtils;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.api.SipUri;

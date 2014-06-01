@@ -33,7 +33,7 @@ import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockExpandableListActivity;
-import com.csipsimple.R;
+import com.geeks.R;
 
 import java.util.ArrayList;
 import java.util.List;

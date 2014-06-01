@@ -27,7 +27,7 @@ import android.content.res.Resources;
 import android.database.Cursor;
 import android.text.TextUtils;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipCallSession;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.api.SipProfile;

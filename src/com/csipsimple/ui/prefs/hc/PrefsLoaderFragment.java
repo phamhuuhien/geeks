@@ -30,7 +30,7 @@ import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.text.TextUtils;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.prefs.IPreferenceHelper;
 import com.csipsimple.ui.prefs.PrefsLogic;
 import com.csipsimple.utils.Log;

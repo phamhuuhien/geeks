@@ -27,7 +27,7 @@ import android.support.v4.content.Loader;
 import android.view.View;
 import android.widget.ListView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.SipHome.ViewPagerVisibilityListener;
 import com.csipsimple.widgets.CSSListFragment;
 

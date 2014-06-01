@@ -32,7 +32,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 import com.actionbarsherlock.internal.utils.UtilityWrapper;
-import com.csipsimple.R;
+import com.geeks.R;
 
 import java.lang.reflect.Method;
 

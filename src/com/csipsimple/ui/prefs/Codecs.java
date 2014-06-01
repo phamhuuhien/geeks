@@ -34,7 +34,7 @@ import android.support.v4.view.ViewPager;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.ActionBar.Tab;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.utils.Log;
 

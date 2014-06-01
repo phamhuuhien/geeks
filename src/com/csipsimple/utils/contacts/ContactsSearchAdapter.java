@@ -44,7 +44,7 @@ import android.widget.AlphabetIndexer;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.models.Filter;
 

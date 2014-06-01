@@ -28,7 +28,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.models.Filter;
 
 public class AccountFiltersListAdapter extends ResourceCursorAdapter {

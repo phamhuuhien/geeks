@@ -38,7 +38,7 @@ import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.SurfaceView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipCallSession;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.api.SipManager;

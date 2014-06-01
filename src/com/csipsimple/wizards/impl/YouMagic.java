@@ -23,7 +23,7 @@ package com.csipsimple.wizards.impl;
 
 import android.text.InputType;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 
 public class YouMagic extends SimpleImplementation {

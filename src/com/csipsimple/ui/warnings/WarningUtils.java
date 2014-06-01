@@ -29,7 +29,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.RelativeLayout;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.utils.Compatibility;
 import com.csipsimple.utils.PhoneCapabilityTester;

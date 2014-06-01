@@ -39,7 +39,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.ISipService;
 import com.csipsimple.api.SipManager.PresenceStatus;
 import com.csipsimple.api.SipProfile;

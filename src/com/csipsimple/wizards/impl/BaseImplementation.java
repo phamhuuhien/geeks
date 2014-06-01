@@ -27,7 +27,7 @@ import android.preference.Preference;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.models.Filter;
 import com.csipsimple.ui.prefs.GenericPrefs;

@@ -33,7 +33,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.incall.locker.slidingtab.SlidingTab;
 
 import java.lang.ref.WeakReference;

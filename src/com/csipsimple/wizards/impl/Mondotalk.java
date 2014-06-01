@@ -28,7 +28,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.wizards.utils.AccountCreationFirstView;
 import com.csipsimple.wizards.utils.AccountCreationFirstView.OnAccountCreationFirstViewListener;

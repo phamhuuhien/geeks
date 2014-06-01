@@ -33,7 +33,7 @@ import android.text.TextUtils;
 import android.view.KeyEvent;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.ISipService;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.api.SipProfile;

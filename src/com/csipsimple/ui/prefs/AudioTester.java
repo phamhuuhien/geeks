@@ -35,7 +35,7 @@ import android.view.View.OnClickListener;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.ISipService;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.service.SipService;

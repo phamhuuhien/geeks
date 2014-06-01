@@ -36,7 +36,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 
 /**
  * Adapter for a ListView containing history items from the details of a call.

@@ -54,7 +54,7 @@ import android.widget.BaseAdapter;
 import android.widget.RelativeLayout;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.ISipService;
 import com.csipsimple.api.MediaState;
 import com.csipsimple.api.SipCallSession;

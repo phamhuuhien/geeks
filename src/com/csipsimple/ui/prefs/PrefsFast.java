@@ -29,7 +29,7 @@ import android.widget.CheckBox;
 import android.widget.RadioButton;
 
 import com.actionbarsherlock.app.SherlockActivity;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.utils.PreferencesWrapper;
 

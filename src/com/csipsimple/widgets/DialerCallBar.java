@@ -30,7 +30,7 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.widget.LinearLayout;
 
-import com.csipsimple.R;
+import com.geeks.R;
 
 public class DialerCallBar extends LinearLayout implements OnClickListener, OnLongClickListener {
 

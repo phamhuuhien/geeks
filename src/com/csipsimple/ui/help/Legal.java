@@ -31,7 +31,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 
 import com.actionbarsherlock.app.SherlockDialogFragment;
-import com.csipsimple.R;
+import com.geeks.R;
 
 public class Legal extends SherlockDialogFragment {
 

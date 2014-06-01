@@ -24,7 +24,7 @@ package com.csipsimple.ui.warnings;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.warnings.WarningUtils.WarningBlockView;
 
 public class WarningSDCard extends WarningBlockView {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.csipsimple"
+    package="com.geeks"
     android:installLocation="auto"
-    android:versionCode="2353"
-    android:versionName="1.02.00" >
+    android:versionCode="1000"
+    android:versionName="1.00.00" >
 
     <supports-screens
         android:anyDensity="true"
@@ -113,9 +113,9 @@
         <meta-data
             android:name="app_channel"
             android:value="trunk" />
-        <meta-data
+        <!-- <meta-data
             android:name="com.google.android.backup.api_key"
-            android:value="AEdPqrEAAAAIL5x8Klvg-Y8nV4j4PNSy2JH6yQZ49yKbrqKJAw" />
+            android:value="AEdPqrEAAAAIL5x8Klvg-Y8nV4j4PNSy2JH6yQZ49yKbrqKJAw" /> -->
 
         <!--
         Samsung multiview support
@@ -147,12 +147,7 @@
             android:launchMode="singleTask"
             android:theme="@style/DarkTheme"
             android:uiOptions="splitActionBarWhenNarrow" >
-            <!-- <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
-            </intent-filter> -->
+            
             <intent-filter android:priority="10" >
                 <action android:name="com.csipsimple.phone.action.DIALER" />
 
@@ -543,11 +538,11 @@
         <!-- Databases providers -->
         <provider
             android:name="com.csipsimple.service.PreferenceProvider"
-            android:authorities="com.csipsimple.prefs"
+            android:authorities="com.geeks.prefs"
             android:permission="android.permission.CONFIGURE_SIP" />
         <provider
             android:name="com.csipsimple.db.DBProvider"
-            android:authorities="com.csipsimple.db"
+            android:authorities="com.geeks.db"
             android:permission="android.permission.CONFIGURE_SIP"
             android:process=":sipStack" />
 

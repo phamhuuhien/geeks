@@ -55,7 +55,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.LinearLayout.LayoutParams;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice.IOnLeftRightProvider;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice.TypeOfLock;

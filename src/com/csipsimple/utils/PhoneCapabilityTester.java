@@ -35,7 +35,7 @@ import android.net.Uri.Builder;
 //import android.net.sip.SipManager;
 import android.telephony.TelephonyManager;
 
-import com.csipsimple.R;
+import com.geeks.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -23,7 +23,7 @@ package com.csipsimple.wizards.impl;
 
 import android.preference.ListPreference;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 
 import java.util.SortedMap;

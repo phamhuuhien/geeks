@@ -29,7 +29,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.utils.Log;
 import com.csipsimple.widgets.ShortcutWidgetConfigure.Shortcut;
 

@@ -35,7 +35,7 @@ import android.text.style.StyleSpan;
 import android.view.View;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipUri;
 
 /**

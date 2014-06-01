@@ -34,7 +34,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipMessage;
 import com.csipsimple.api.SipUri;
 import com.csipsimple.models.CallerInfo;

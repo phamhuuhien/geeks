@@ -25,7 +25,7 @@ import java.util.List;
 
 import android.text.InputType;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.models.Filter;
 

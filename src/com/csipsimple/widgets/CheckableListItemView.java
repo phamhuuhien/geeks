@@ -25,7 +25,7 @@
 
 package com.csipsimple.widgets;
 
-import com.csipsimple.R;
+import com.geeks.R;
 
 import android.content.Context;
 import android.util.AttributeSet;

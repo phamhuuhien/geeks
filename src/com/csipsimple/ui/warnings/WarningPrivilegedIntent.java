@@ -26,7 +26,7 @@ import android.content.Intent;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.ui.warnings.WarningUtils.WarningBlockView;

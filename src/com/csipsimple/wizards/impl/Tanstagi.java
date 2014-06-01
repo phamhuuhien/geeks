@@ -25,7 +25,7 @@ import android.text.InputType;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipConfigManager;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.utils.PreferencesWrapper;

@@ -32,7 +32,7 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.actionbarsherlock.app.SherlockListActivity;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.utils.Log;
 

@@ -32,7 +32,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.widgets.EditSipUri;
 import com.csipsimple.widgets.EditSipUri.ToCall;

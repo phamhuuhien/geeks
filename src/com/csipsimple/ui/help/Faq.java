@@ -33,7 +33,7 @@ import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 
 import com.actionbarsherlock.app.SherlockDialogFragment;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.utils.CustomDistribution;
 
 public class Faq extends SherlockDialogFragment {

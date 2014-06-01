@@ -28,7 +28,7 @@ package com.csipsimple.ui.calllog;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.widgets.contactbadge.QuickContactBadge;
 
 /**

@@ -53,7 +53,7 @@ public final class CustomDistribution {
 	 * @return the email address of support
 	 */
 	public static String getSupportEmail() {
-		return "developers@csipsimple.com";
+		return "developers@geeks.com";
 	}
 	
 	/**
@@ -61,7 +61,7 @@ public final class CustomDistribution {
 	 * @return the default user agent
 	 */
 	public static String getUserAgent() {
-		return "CSipSimple";
+		return "Geeks";
 	}
 	
 	/**
@@ -85,7 +85,7 @@ public final class CustomDistribution {
 	 * @return link to the FAQ
 	 */
 	public static String getFaqLink() {
-		return "http://www.telecomgeeks.com/Articles.asp?ID=250";
+		return "http://code.google.com/p/csipsimple/wiki/FAQ?show=content,nav#Summary";
 	}
 	
 	/**
@@ -146,7 +146,7 @@ public final class CustomDistribution {
      * @return the name of the folder to use
      */
     public static String getSDCardFolder() {
-        return "CSipSimple";
+        return "Geeks";
     }
 
     /**

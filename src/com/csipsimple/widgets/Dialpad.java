@@ -35,7 +35,7 @@ import android.view.View.OnClickListener;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.utils.Log;
 import com.csipsimple.utils.Theme;
 

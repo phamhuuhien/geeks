@@ -25,7 +25,7 @@ import android.preference.CheckBoxPreference;
 import android.preference.EditTextPreference;
 import android.text.TextUtils;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.api.SipUri;
 import com.csipsimple.api.SipUri.ParsedSipContactInfos;

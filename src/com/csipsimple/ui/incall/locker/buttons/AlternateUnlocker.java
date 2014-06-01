@@ -33,7 +33,7 @@ import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice.IOnLeftRightProvider;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice.TypeOfLock;

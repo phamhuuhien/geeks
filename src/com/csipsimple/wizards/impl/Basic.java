@@ -23,7 +23,7 @@ package com.csipsimple.wizards.impl;
 
 import android.preference.EditTextPreference;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.api.SipUri;
 import com.csipsimple.api.SipUri.ParsedSipContactInfos;

@@ -23,7 +23,7 @@ package com.csipsimple.utils;
 
 import android.content.Context;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipCallSession;
 
 public class CallsUtils {

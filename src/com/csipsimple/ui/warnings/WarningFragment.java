@@ -29,7 +29,7 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 
 import com.actionbarsherlock.app.SherlockFragment;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.warnings.WarningUtils.OnWarningChanged;
 import com.csipsimple.ui.warnings.WarningUtils.WarningBlockView;
 import com.csipsimple.utils.Log;

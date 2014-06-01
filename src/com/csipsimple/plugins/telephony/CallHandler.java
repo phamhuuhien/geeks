@@ -33,7 +33,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.utils.CallHandlerPlugin;
 import com.csipsimple.utils.Log;

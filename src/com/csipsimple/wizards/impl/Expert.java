@@ -26,7 +26,7 @@ import android.preference.EditTextPreference;
 import android.preference.ListPreference;
 import android.text.TextUtils;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.utils.Log;
 

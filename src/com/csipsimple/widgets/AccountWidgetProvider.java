@@ -35,7 +35,7 @@ import android.database.DatabaseUtils;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipManager;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.utils.AccountListUtils;

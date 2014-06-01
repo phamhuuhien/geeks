@@ -40,7 +40,7 @@ import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.SparseArray;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipCallSession;
 import com.csipsimple.api.SipCallSession.StatusCode;
 import com.csipsimple.api.SipConfigManager;

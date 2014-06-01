@@ -3,7 +3,7 @@ package com.geeks.helper;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -116,6 +116,14 @@ public class CommonHelper {
     public static void showWarningDialog(Context context, String str_message) {
     	AlertDialog.Builder builder = new AlertDialog.Builder(context);
     	builder.setTitle(context.getString(R.string.app_name))
+    		.setMessage(str_message)
+    		.setCancelable(false).setPositiveButton("OK", null);
+    	builder.create().show();
+    }
+    
+    public static void showWarningDialog(Context context, String title, String str_message) {
+    	AlertDialog.Builder builder = new AlertDialog.Builder(context);
+    	builder.setTitle(title)
     		.setMessage(str_message)
     		.setCancelable(false).setPositiveButton("OK", null);
     	builder.create().show();

@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.actionbarsherlock.internal.utils.UtilityWrapper;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.ui.account.AccountsLoader;
 import com.csipsimple.utils.CallHandlerPlugin;

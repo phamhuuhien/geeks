@@ -28,7 +28,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.RelativeLayout;
 
-import com.csipsimple.R;
+import com.geeks.R;
 
 public class AccountCreationFirstView extends RelativeLayout implements OnClickListener {
 

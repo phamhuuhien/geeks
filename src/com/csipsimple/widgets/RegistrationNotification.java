@@ -27,7 +27,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.api.SipProfileState;
 import com.csipsimple.wizards.WizardUtils;
 import com.csipsimple.wizards.WizardUtils.WizardInfo;

@@ -39,7 +39,7 @@ import android.widget.ImageView.ScaleType;
 import android.widget.TextView;
 
 import com.actionbarsherlock.internal.utils.UtilityWrapper;
-import com.csipsimple.R;
+import com.geeks.R;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice.IOnLeftRightProvider;
 import com.csipsimple.ui.incall.locker.IOnLeftRightChoice.TypeOfLock;

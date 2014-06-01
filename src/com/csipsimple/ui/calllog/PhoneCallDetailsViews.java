@@ -29,7 +29,7 @@ import android.content.Context;
 import android.view.View;
 import android.widget.TextView;
 
-import com.csipsimple.R;
+import com.geeks.R;
 
 /**
  * Encapsulates the views that are used to display the details of a phone call
